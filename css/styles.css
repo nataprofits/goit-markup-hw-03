@@ -2,11 +2,7 @@
 html {
     box-sizing: border-box;
 }
-*,
-*::before
-*::after {
-    box-sizing: inherit;
-}
+
 :root {
     --primari-brand-text-color:#4D5AE5;
     --primari-bg-color:#fff;
@@ -27,7 +23,12 @@ body {
     line-height: 1.5;
 }
 .conteiner {
-    outline: 2px solid tomato;
+   outline: 2px solid tomato;
+   margin-left: auto;
+   margin-right: auto;
+   width: 1158px;
+   padding-right: 15px;
+   padding-left: 15px;
 }
 .list { 
     list-style: none;
@@ -43,6 +44,7 @@ body {
     letter-spacing: 0.03em;
     text-decoration: none;
     text-transform: uppercase;
+    
 }
 .accent {
     color: var(--link-text-color);
@@ -56,6 +58,7 @@ body {
     font-weight: 600;
     color: var(--heading-text-color);
     text-decoration: none;
+    
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -64,12 +67,14 @@ body {
 .auth-nav .link{
   color: var(--body-text-color);
     text-decoration: none;
+    
 }
 .auth-nav .link:hover, .auth-nav .link:focus {
   color: var(--link-text-color);
 }
 .contact-link {
     font-weight: 400;
+    
 
 }
 
@@ -77,6 +82,8 @@ body {
 .hero{background-color: #2E2F42;
     outline: 2px solid tomato;
     text-align: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .hero-title {
    font-weight: 600;
@@ -84,9 +91,10 @@ body {
    line-height: 1.07;
    color: var(--color-white);
    margin-top: 0px;
-   margin-bottom: 40px;
+   margin-bottom: 48px;
+   margin-left: auto;
+   margin-right: auto;
    width: 492px;
-   text-align: center;
 
 }
 .button-hero {
@@ -99,7 +107,8 @@ body {
     cursor: pointer;
     border-radius: 4px;
     padding: 16px 32px;
-    border: 1px solid transparent;    
+    border: 1px solid transparent;
+    margin-bottom: 192px;    
     
 }
 .button:hover, .button:focus {background-color: var(--link-text-color);
@@ -109,6 +118,10 @@ color: var(--primari-bg-color);
     color: #2E2F42
 }
 /* Преимущества */
+.feature {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 .feature-list {
     margin-top: 120px;
 }
@@ -117,18 +130,32 @@ color: var(--primari-bg-color);
     font-size: 20px;
     line-height: 1.2;
     color: var(--heading-text-color);
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 .feature-text {
+    margin-top: 8px;
+    margin-bottom: 0px;
 }
 /* Работа */
+.section.no-padding {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 .section-title {
     font-weight: 600;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
+    margin-top: 120px;
+    margin-bottom: 72;
 }
 /* Команда */
+.section-team {
+        padding-top: 120px;
+        padding-bottom: 120px;
+}
 .section-name {
     font-weight: 600;
     font-size: 20px;
