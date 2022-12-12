@@ -24,13 +24,15 @@ body {
 }
 .conteiner {
    outline: 2px solid tomato;
-   display: flex;
    margin-left: auto;
    margin-right: auto;
    width: 1158px;
    padding-right: 15px;
    padding-left: 15px;
    align-items: center;
+}
+.h1 .h2 .h3 .h4 .p {
+    margin: 0px;
 }
 .conteiner-nav {display: flex;}
 .list { 
@@ -147,8 +149,8 @@ color: var(--primari-bg-color);
 }
 /* Преимущества */
 .feature {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    /* padding-top: 120px; */
+    /* padding-bottom: 120px; */
 }
 .feature-list {
     display: flex;
@@ -176,10 +178,11 @@ color: var(--primari-bg-color);
 }
 /* Работа */
 .section.no-padding {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    /* padding-top: 120px;
+    padding-bottom: 120px; */
 }
 .section-title {
+    display: block;
     font-weight: 600;
     font-size: 36px;
     line-height: 1.11;
@@ -192,8 +195,13 @@ color: var(--primari-bg-color);
     flex-wrap: wrap;
     margin-top: 72px;
 }
-.item-work {width: calc((100% - 48px) / 3);} 
-
+.item-work {
+    width: 360px;
+    margin-right: 24px;
+} 
+.item-work:nth-child(3n) {
+    margin-right: 0px;
+}
 
 /* Команда */
 .section-team {
@@ -209,6 +217,14 @@ color: var(--primari-bg-color);
 }
 .section-text {
     text-align: center;
+}
+.list-team {
+    display: flex;
+    width: calc((100% - 72px) / 4);
+}
+.item-team:nth-child(4n) {
+    margin-right: 0px;
+    margin-right: 24px;
 }
 
 /* Button */
