@@ -192,6 +192,7 @@ color: var(--primari-bg-color);
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 120px;
 }
 .list-work {
     display: flex;
@@ -224,6 +225,7 @@ color: var(--primari-bg-color);
 .list-team {
     display: flex;
     width: calc((100% - 72px) / 4);
+    padding-top: 72px;
     
 }
 .item-team {
