@@ -37,6 +37,7 @@ body {
 .conteiner-nav {
     display: flex;
     align-items: center;
+    border-bottom: 1px solid var(--body-text-color);
 }
 .list { 
     list-style: none;
@@ -223,10 +224,14 @@ color: var(--primari-bg-color);
 .list-team {
     display: flex;
     width: calc((100% - 72px) / 4);
+    
+}
+.item-team {
+    margin-right: 24px;
 }
 .item-team:nth-child(4n) {
     margin-right: 0px;
-    margin-right: 24px;
+    
 }
 
 /* Button */
