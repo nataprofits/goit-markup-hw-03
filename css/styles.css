@@ -23,7 +23,7 @@ body {
     line-height: 1.5;
 }
 .conteiner {
-   outline: 2px solid tomato;
+   /* outline: 2px solid tomato; */
    margin-left: auto;
    margin-right: auto;
    width: 1158px;
@@ -34,7 +34,10 @@ body {
 .h1 .h2 .h3 .h4 .p {
     margin: 0px;
 }
-.conteiner-nav {display: flex;}
+.conteiner-nav {
+    display: flex;
+    align-items: center;
+}
 .list { 
     list-style: none;
     padding: 0;
@@ -68,7 +71,7 @@ body {
    margin-left: 40px;
 }
 .site-nav .link{
-    outline: 2px solid tomato;
+    /* outline: 2px solid tomato; */
     display: block;
     padding-top: 24px;
     padding-bottom: 24px;
@@ -85,7 +88,7 @@ body {
 
 .auth-nav {
     display: flex;
-    outline: 2px solid tomato;
+    /* outline: 2px solid tomato; */
     margin-left: auto;
 
 }
@@ -102,13 +105,12 @@ body {
 }
 .contact-link {
     font-weight: 400;
-    
 
 }
 
 /* Hero */
 .hero{background-color: #2E2F42;
-    outline: 2px solid tomato;
+    /* outline: 2px solid tomato; */
     text-align: center;
     padding-top: 120px;
     padding-bottom: 120px;
@@ -308,9 +310,16 @@ color: var(--primari-bg-color);
 }
 .footer {
     color: var(--fotter-color);
+    display: flex;
+    padding: 100px 0px;
 }
-.foter-text {
+.footer-text {
+    display: flex;
+    width: 264px;
+   
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    
+
 }
