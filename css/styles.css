@@ -23,9 +23,14 @@ body {
     font-size: 16px;
     line-height: 1.5;
 }
+.img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 .section {
     padding-top: 120px;
-    padding-bottom: 0px;}
+    padding-bottom: 120px;}
 
 .conteiner {
    /* outline: 2px solid tomato; */
@@ -54,9 +59,13 @@ h1,h2,h3,h4,h5,h6,p {
     overflow: hidden;
 } 
 
+.menu {
+    display: flex;
+}
 .header {
     display: flex;
-    box-shadow: 2px 2px 10px 1px var(--body-text-color) }
+box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
 .conteiner-nav {
     display: flex;
     align-items: center;
@@ -138,7 +147,7 @@ h1,h2,h3,h4,h5,h6,p {
     background-color: var(--heading-text-color);
     /* outline: 2px solid tomato; */
     text-align: center;
-   
+    padding: 192px 0px;
 }
 .hero-title {
    font-weight: 600;
@@ -164,10 +173,7 @@ h1,h2,h3,h4,h5,h6,p {
     padding: 16px 32px;
     border: 1px solid transparent;
     text-align: center;
-    margin-top: 48px;
-    margin-bottom: 192px;
-       
-    
+    margin-top: 48px;  
 }
 .button:hover, .button:focus {background-color: var(--link-text-color);
 color: var(--primari-bg-color);
@@ -228,15 +234,18 @@ color: var(--primari-bg-color);
 }
 .img {
     display: block;
-max-width: 100%;}
+    max-width: 100%;
+    height: auto;
+}
 
 /* Команда */
 .team {
 background-color: var(--color-batton-filtr);
-margin-top: 120px;
+
 padding-bottom: 120px;
 }
 .section-name {
+    margin-top: 5px;
     font-weight: 600;
     font-size: 20px;
     line-height:1.2;
@@ -248,8 +257,7 @@ padding-bottom: 120px;
 }
 .list-team {
     display: flex;
-    /* width: calc((100% - 72px) / 4); */
-    padding-top: 72px;
+    margin-top: 72px;
     margin-right: calc(-1 * var(--card-set-gap));
     
 }
@@ -262,6 +270,9 @@ padding-bottom: 120px;
 .item-team:nth-child(4n) {
     margin-right: 0px;
     
+}
+.team-coment {
+    padding: 32px 16px;
 }
 
 /* Button */
@@ -303,7 +314,7 @@ color: var(--primari-bg-color);
     margin-left: var(--card-set-gap);
     margin-bottom: var(--card-set-gap);
     /* border: 0.5px solid rgba(244, 244, 253, 1) */
-     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .product-item:nth-child(3n) {
     margin-right: 0px;
@@ -338,16 +349,14 @@ color: var(--primari-bg-color);
 }
 .footer {
     background-color: var(--heading-text-color);
-    color: var(--fotter-color);
-    display: flex;
+
     padding: 100px 0px;
 }
 .footer-text {
     margin-top: 16px;
-
     width: 264px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-   
-}
+    color: var(--fotter-color);
+   }
