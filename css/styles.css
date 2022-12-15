@@ -232,11 +232,6 @@ color: var(--primari-bg-color);
 .item-work:nth-child(3n) {
     margin-right: 0px;
 }
-.img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
 
 /* Команда */
 .team {
@@ -306,7 +301,7 @@ color: var(--primari-bg-color);
 .product-list {
     display: flex;
     flex-wrap: wrap;
-    margin-right: calc( -1 * var( --card-set-gap));
+    margin-left: calc( -1 * var( --card-set-gap));
     margin-top: 72px;
 }
 .product-item {
@@ -318,6 +313,11 @@ color: var(--primari-bg-color);
 }
 .product-item:nth-child(3n) {
     margin-right: 0px;
+}
+.card-content {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    padding-left: 16px;
 }
 /* .product-item:nth-child(-n + 3) {
     margin-bottom: 0px;
