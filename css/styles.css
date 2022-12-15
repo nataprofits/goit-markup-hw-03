@@ -226,7 +226,9 @@ color: var(--primari-bg-color);
     margin-top: 72px;
 }
 .item-work {
-    width: 360px;
+    
+    /* border: 1px solid #E7E9FC; */
+    max-width: 100%;
     margin-right: 24px;
 } 
 .item-work:nth-child(3n) {
@@ -240,7 +242,7 @@ background-color: var(--color-batton-filtr);
 padding-bottom: 120px;
 }
 .section-name {
-    margin-top: 5px;
+    margin-bottom: 5px;
     font-weight: 600;
     font-size: 20px;
     line-height:1.2;
@@ -259,7 +261,7 @@ padding-bottom: 120px;
 .item-team {
     margin-right: var(--card-set-gap);
     flex-basis: calc(100%/4 - var(--card-set-gap));
-    margin-bottom: var(--card-set-gap);
+
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .item-team:nth-child(4n) {
@@ -274,7 +276,7 @@ padding-bottom: 120px;
 .button{
     display: inline-block;
     border-radius: 4px;
-    padding: 8px 16px;
+    padding: 12px 24px;
     min-width: 69;
     color:var(--link-text-color) ;
     background-color: var(--color-batton-filtr);
@@ -291,7 +293,6 @@ color: var(--primari-bg-color);
 
 .project-list {
     display: flex;
-    margin-top: 96px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -308,7 +309,6 @@ color: var(--primari-bg-color);
     flex-basis: calc(100%/3-24);
     margin-left: var(--card-set-gap);
     margin-bottom: var(--card-set-gap);
-    /* border: 0.5px solid rgba(244, 244, 253, 1) */
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .product-item:nth-child(3n) {
